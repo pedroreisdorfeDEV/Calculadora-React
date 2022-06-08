@@ -1,0 +1,18 @@
+@font-face { /* importando minha fonte*/
+  font-family: 'RobotoMono';
+  src: url('./fonts/RobotoMono-Thin.ttf');
+}
+
+* { /* com astericos eu estou aplicando a todos os meus componentes*/
+  font-family: 'RobotoMono', monospace; /* caso não achar a RobotoMono usa a monospace*/
+}
+
+body {
+  display: flex;
+  height: 100vh; /* usando essa unidade pego a altura completa*/
+  justify-content: center;
+  align-items: center; /* com esse item e o de cima, coloco meu objeto bem no meio da tela*/
+  text-align: center;
+  background: linear-gradient(to right, rgb(83, 105, 118), rgb(41, 46, 70));
+  color: #fff /* cor do meu texto*/
+}
